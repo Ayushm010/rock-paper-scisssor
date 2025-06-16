@@ -41,7 +41,7 @@ function playRound(humanChoice, computerChoice) {
             humanScore++;
         }
     }
-    else {//For scissor
+    else if(humanChoice === "scissor"){
         if (computerChoice === "scissor") console.log("Tie");
         else if (computerChoice === "rock") {
             console.log("You lost!!,Rock beats scissor");
